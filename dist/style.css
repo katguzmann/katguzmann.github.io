@@ -471,6 +471,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1155,6 +1158,9 @@
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
   }
+  .bg-zinc-50 {
+    background-color: var(--color-zinc-50);
+  }
   .bg-zinc-50\/40 {
     background-color: color-mix(in oklab, var(--color-zinc-50) 40%, transparent);
   }
@@ -1323,6 +1329,9 @@
   }
   .object-top {
     object-position: top;
+  }
+  .p-9 {
+    padding: calc(var(--spacing) * 9);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -1660,6 +1669,9 @@
   }
   .shadow-initial {
     --tw-shadow-color: initial;
+  }
+  .ring-zinc-200 {
+    --tw-ring-color: var(--color-zinc-200);
   }
   .ring-zinc-200\/50 {
     --tw-ring-color: color-mix(in oklab, var(--color-zinc-200) 50%, transparent);
