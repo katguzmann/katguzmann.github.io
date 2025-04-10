@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch",
+    "start": "NODE_PATH=src/ node <node_modules/luminous-lightbox/dist"
   },
   "author": "",
   "license": "ISC",
