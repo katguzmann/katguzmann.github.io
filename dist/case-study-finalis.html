@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="../node_modules/luminous-lightbox/dist/luminous-basic.min.css">
+    <script src="../node_modules/luminous-lightbox/dist/luminous.min.js" async></script>
+    <link href="./index.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./case-studies.css" rel="stylesheet">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <main class="layout-main space-y-10">
+    <div class="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
+      <div class="navigation">
+        <a class="" href="index.html">
+          <span class="hover:bg-gray-50 rounded-lg text-neutral-600 navigation-link">Home</span>
+        </a>
+        <a class="" href="design.html">
+          <span class="rounded-lg hover:bg-gray-50 text-neutral-600 navigation-link">Design</span>
+        </a>
+        <a class="" href="case-studies.html">
+          <span class="font-medium rounded-lg hover:bg-gray-50 navigation-link text-black navigation-link">Work</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
+      <div class="relative mx-auto w-full max-w-screen-lg flex-1 px-4">
+        <section class="case-study-title">
+          <h1 class="mb-8 flex items-center justify-between text-lg text-neutral-900">Finalis</h3>
+          <div class="case-study-subtitle grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <h2 class="text-zinc-700 dark:text-zinc-400">
+              An operative system for the private market industry.
+            </h2>
+
+          </div>
+          <figure>
+            <img class="mt-20 mb-20" src="/src/images/image23-full.jpg">
+          </figure>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-10">Private market dealmaking is a complex industry that operates with unsophisticated tools, making the workflow inefficient inside a market that moves quickly in business operations and strategies, however, technology does not follow the same speed and has shown inability in adapting to different business logic approaches.</p>
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-20">Finalis efforts are invested in building an operating system that considers, in every feature and improvement, that each deal is different and unique, no matter the size, the market or type of transaction, giving dealmakers the freedom of customizing their deal execution as much as possible while giving them structure and order, providing them the space to improve business strategies.</p>
+          
+          <figure class="flex justify-center">
+            <img class="flex justify-center image mb-20" src="/src/images/image25-full.jpg">
+          </figure>
+          
+          <figure>
+            <img src="/src/images/image24-full.jpg">
+          </figure>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-20">On conversations with investment bankers, lawyers, attorneys, and entrepreneurs, we noticed that their teams were spending near 40% of their time in low-value tasks, like keeping track of emails and centralizing information from extensive data sets, calls and meetings. Having different streams of communication is a common issue in the industry, often dealmakers operate in long-chain emails, cloud storage solutions, confidential documents, and phone calls, which makes visibility of decision making hard to keep track of.</p>
+          <p class="p-study text-zinc-700 dark:text-zinc-400">We design around these issues by providing our users an environment in which they can create a deal and start receiving questions from the counterpart with the ability to categorize them, attach documents and have an internal conversation about each question, allowing them to keep track of all activity on the same context.</p>
+
+          <figure class="flex justify-center">
+            <img class="image mb-20" src="/src/images/image26-small.jpg">
+          </figure>
+
+        </section>
+
+        <section class="mt-30 mb-30">
+          <h3 class="mb-8 flex items-center justify-between text-lg text-neutral-900">Contact</h3>
+          <ul class="flex flex-col">
+            <li>
+              <p class="text-zinc-600 dark:text-zinc-400 mb-5">You can contact me at <a class="underline text-neutral-500 :text-neutral-800 transition-color" href="mailto:katguzman@protonmail.com">katguzman@protonmail.com</a></p>
+            </li>
+            <li>
+              <a class="text-zinc-600 dark:text-zinc-400 hover:text-neutral-700/65 transition-color" href="http://linkedin.com/in/kat-guzman/">LinkedIn</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="../node_modules/luminous-lightbox/dist/luminous.min.js"></script>
+<script>
+  new LuminousGallery(document.querySelectorAll(".gallery-demo"));
+</script>
+</html>
