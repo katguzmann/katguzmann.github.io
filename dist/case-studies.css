@@ -1,0 +1,25 @@
+.case-study-title{
+    h1{
+        font-size: 20px;
+    }
+}
+
+.case-study-subtitle{
+    h2{
+        font-size:16px;
+        font-weight: 300;
+    }
+}
+
+.case-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-color: #e7e7e7;
+}
+
+
+.p-study{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+}
