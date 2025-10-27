@@ -29,3 +29,7 @@
     display: flex;
     justify-content: center;
 }
+
+.highlights-list{
+    padding-inline-start: 1.625em;
+}
