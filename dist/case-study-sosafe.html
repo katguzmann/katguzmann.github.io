@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="../node_modules/luminous-lightbox/dist/luminous-basic.min.css">
+    <script src="../node_modules/luminous-lightbox/dist/luminous.min.js" async></script>
+    <link href="./index.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./case-studies.css" rel="stylesheet">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <main class="layout-main space-y-10">
+    <div class="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
+      <div class="navigation">
+        <a class="" href="index.html">
+          <span class="hover:bg-gray-50 rounded-lg text-neutral-600 navigation-link">Home</span>
+        </a>
+        <a class="" href="design.html">
+          <span class="rounded-lg hover:bg-gray-50 text-neutral-600 navigation-link">Design</span>
+        </a>
+        <a class="" href="case-studies.html">
+          <span class="font-medium rounded-lg hover:bg-gray-50 text-black navigation-link">Work</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
+      <div class="relative mx-auto w-full max-w-screen-lg flex-1 px-4">
+        <section class="case-study-title">
+          <h1 class="mb-8 flex items-center justify-between text-lg text-neutral-900">Sosafe</h3>
+          <div class="case-study-subtitle grid grid-cols-1 sm:grid-cols-2 gap-2">
+            <h2 class="text-zinc-700 dark:text-zinc-400">
+              Designing to keep cities safe.
+            </h2>
+
+          </div>
+          <figure>
+            <img class="mt-20 mb-20" src="/src/images/image27-full.jpg">
+          </figure>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-20">In a time when social media brings more noise than signal to people's communication, SoSafe is an effort to bring a sense of community and safety to neighbors. It was an honor to work for such a challenging mission and have the opportunity to talk with users, learn more about their concerns and came up together with design solutions to make them feel heard and safe.</p>
+          
+          <figure>
+            <img class="mb-20" src="/src/images/image28-full.jpg">
+          </figure>
+          
+          <figure>
+            <img src="/src/images/image29-full.jpg">
+          </figure>
+          
+          <figure>
+            <img src="/src/images/image30-full.jpg">
+          </figure>
+
+          <a href="https://www.figma.com/design/xnmbYp9OlfIskLeKwK3WQr/Mobile-App---Spacing-System?node-id=0-1&t=ANb2BznRbhkGsaO0-1" target="_blank" class="italic text-neutral-600 hover:text-neutral-700/65 transition-color mb-10 flex justify-center">See Spacing System on Figma →</a>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/xnmbYp9OlfIskLeKwK3WQr/Mobile-App---Spacing-System?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mt-20 mb-20">An interesting challenge to work on was the spacing system for three different operating systems. When working for such a wide number of devices you can tell the difference between thinking about space as separation of visual elements, and space as a variable that gives order and set the dimension of components for specific screen sizes. As a UI Engineer I had to come up with a common language for iOS, Android and Windows in defining specific spaces for margins, paddings or absolute positioning, that way we will know the behavior of a component, mantaining its consistency, no matter the operative system or screen size.</p>
+
+          <figure>
+            <img class="mb-20" src="/src/images/image31-full.jpg">
+          </figure>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-10">I had the opportunity to work on a weekly activity notification, which show users the number of reports they’ve made in the app, along with the people that they helped (users that’ve received the report) and the amount of thanks they got (similar to likes).</p>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-10">The intention behind the development of that feature was to visualize the impact of people's activity in the app, showing them their real-life impact, and to take the opportunity of thanking the institutional entities that took care of emergencies.</p>
+
+          <p class="p-study text-zinc-700 dark:text-zinc-400 mb-10">The result was an increase of overall activity on the app and thousands of users reaching to us with messages of appreciation about the weekly report.</p>
+
+          <figure>
+            <img src="/src/images/image38-full.jpg">
+          </figure>
+
+        </section>
+
+        <section class="mt-30 mb-30">
+          <h3 class="mb-8 flex items-center justify-between text-lg text-neutral-900">Contact</h3>
+          <ul class="flex flex-col">
+            <li>
+              <p class="text-zinc-600 dark:text-zinc-400 mb-5">You can contact me at <a class="underline text-neutral-500 :text-neutral-800 transition-color" href="mailto:katguzman@protonmail.com">katguzman@protonmail.com</a></p>
+            </li>
+            <li>
+              <a class="text-zinc-600 dark:text-zinc-400 hover:text-neutral-700/65 transition-color" href="http://linkedin.com/in/kat-guzman/">LinkedIn</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+<script src="../node_modules/luminous-lightbox/dist/luminous.min.js"></script>
+<script>
+  new LuminousGallery(document.querySelectorAll(".gallery-demo"));
+</script>
+</html>
