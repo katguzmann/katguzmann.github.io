@@ -259,7 +259,10 @@
 </body>
 <script src="../node_modules/luminous-lightbox/dist/luminous.min.js"></script>
 <script>
-  const galleryElements = document.querySelectorAll(".gallery-demo");
-  new LuminousGallery(galleryElements);
+  new LuminousGallery(document.querySelectorAll(".gallery-demo"), {
+    arrowNavigation: true
+  }, {
+    showCloseButton: false
+  });
 </script>
 </html>

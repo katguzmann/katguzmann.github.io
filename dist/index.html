@@ -23,7 +23,7 @@
         <a class="" href="design.html">
           <span class="rounded-lg hover:bg-gray-50 text-neutral-600 navigation-link">Design</span>
         </a>
-        <a class="" href="case-studies.html">
+        <a class="" href="case-studies3.html">
           <span class="rounded-lg hover:bg-gray-50 text-neutral-600 navigation-link">Work</span>
         </a>
       </div>
@@ -88,6 +88,10 @@
 </body>
 <script src="../node_modules/luminous-lightbox/dist/luminous.min.js"></script>
 <script>
-  new LuminousGallery(document.querySelectorAll(".gallery-demo"));
+  new LuminousGallery(document.querySelectorAll(".gallery-demo"), {
+    arrowNavigation: true
+  }, {
+    showCloseButton: false
+  });
 </script>
 </html>
